@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 flag=4;
                 break;
             case R.id.bIgual:
-                                op2=Double.parseDouble(eNumero.getText().toString());
+                op2=Double.parseDouble(eNumero.getText().toString());
                 switch (flag) {
                     case 1:
                         resultado = op1 + op2;

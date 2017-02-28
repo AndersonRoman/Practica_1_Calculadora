@@ -73,6 +73,7 @@
                android:layout_height="0dp"
                android:layout_weight="1"
                android:hint="60%"
+               android:inputType="numberDecimal"
                android:textSize="30sp"
                android:id="@+id/ePracticas"/>
            <EditText
@@ -80,6 +81,7 @@
                android:layout_height="0dp"
                android:layout_weight="1"
                android:hint="5%"
+               android:inputType="numberDecimal"
                android:textSize="30sp"
                android:id="@+id/eAvanceI"/>
            <EditText
@@ -87,6 +89,7 @@
                android:layout_height="0dp"
                android:layout_weight="1"
                android:hint="7%"
+               android:inputType="numberDecimal"
                android:textSize="30sp"
                android:id="@+id/eAvanceII"/>
            <EditText
@@ -94,6 +97,7 @@
                android:layout_height="0dp"
                android:layout_weight="1"
                android:hint="8%"
+               android:inputType="numberDecimal"
                android:textSize="30sp"
                android:id="@+id/eAvanceIII"/>
            <EditText
@@ -101,6 +105,7 @@
                android:layout_height="0dp"
                android:layout_weight="1"
                android:hint="20%"
+               android:inputType="numberDecimal"
                android:textSize="30sp"
                android:id="@+id/eFinal"/>
        </LinearLayout>

@@ -1,1 +1,1 @@
-include ':calculadora', ':punto_1', ':punto_2'
+include ':calculadora', ':punto_1', ':punto_2', ':punto_4'

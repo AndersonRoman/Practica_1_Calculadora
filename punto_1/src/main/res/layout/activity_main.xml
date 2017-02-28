@@ -118,7 +118,7 @@
             android:layout_height="wrap_content"
             android:hint="Lado"
             android:id="@+id/eLado"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             />
         <EditText
             android:layout_width="0dp"
@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:hint="Radio"
             android:id="@+id/eRadio"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             />
         <EditText
             android:layout_width="0dp"
@@ -134,14 +134,14 @@
             android:layout_height="wrap_content"
             android:hint="Base"
             android:id="@+id/eBase"
-            android:inputType="number"/>
+            android:inputType="numberDecimal"/>
         <EditText
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:hint= "Altura"
             android:id="@+id/eAltura"
-            android:inputType="number"/>
+            android:inputType="numberDecimal"/>
     </LinearLayout>
 
     <LinearLayout

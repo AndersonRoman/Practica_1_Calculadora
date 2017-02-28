@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     avanceIII=Double.parseDouble(eAvanceIII.getText().toString());
                     pfinal=Double.parseDouble(eFinal.getText().toString());
 
-                    notaFinal=practicas*.6+avanceI*.005+avanceII*.007+avanceIII*.008+pfinal*.2;
+                    notaFinal=practicas*.6+avanceI*.05+avanceII*.07+avanceIII*.08+pfinal*.2;
 
                     if (notaFinal>=0 && notaFinal<=1){
                         Toast.makeText(MainActivity.this,"Estas en el lugar equivocado",Toast.LENGTH_LONG).show();
